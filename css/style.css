@@ -1,0 +1,495 @@
+@font-face {
+    font-family: cIconfont;
+    src: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-03f7028492.eot);
+    src: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-03f7028492.eot?#iefix) format('embedded-opentype'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-d312d35c5b.woff2) format('woff2'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-d187c4be30.woff) format('woff'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-81527e9464.ttf) format('truetype'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont-4816f3b73b.svg#iconfont)
+}
+*{
+    text-align:center;
+    font-size:14px;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(52, 106, 218);
+}
+.NavigationList {
+    list-style-type:none;
+    display:block;
+    margin-left:-1.7%;
+}
+    .NavigationList li {
+        float: left;
+        margin: 9px 31px 0 0;
+        color:black;
+    }
+.SetupList {
+    position:absolute;
+    right:60px;
+    display: block;
+    margin-left: -6%;
+}
+    .SetupList li {
+        list-style-type: none;
+        margin: 0 0 9px 20px;
+        color: black;
+    }
+.More:hover .MoreList {
+    display: block;
+    float: left;
+}
+.MoreList {
+    background-color: white;
+    position:absolute;
+    top:52px;
+    left:185px;
+    text-align: center;
+    width: 340px;
+    height: 250px;
+    border-radius: 16px;
+    display:none;
+    box-shadow: 0px 2px 10px rgb(210,210,210);
+    color: aliceblue;
+    z-index:99;
+}
+.MoreList:hover{
+    display:block;
+}
+
+    .MoreList li {
+        display: block;
+    }
+    .MoreList img {
+        text-align: center;
+        width: 48px;
+        height: 48px;
+        margin: 7% 20% 0 0;
+        border: 1px solid rgb(245,245,245);
+    }
+.SetUp {
+    top: 35px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+.SetupList{
+
+}
+.SetupListFrame {
+    background-color: white;
+    text-align: center;
+    position:relative;
+    width: 93px;
+    height: 160px;
+    margin-top:-32px;
+    margin-left:25px;
+    border-radius: 13px;
+    display: none;
+    box-shadow: 0px 2px 10px rgb(210,210,210);
+    z-index: 100;
+}
+    .SetupListFrame:hover {
+        display: block;
+        float: left;
+    }
+    .SetupListFrame li {
+        display: block;
+    }
+.SetupListUl{
+    margin-left:-69%;
+    margin-top:17%;
+    display:inline-block;
+}
+.fk {
+    height: 60px;
+}
+.fk2 {
+    height: 60px;
+    
+}
+.SetUp:hover .SetupListFrame {
+    display: block;
+    float: left;
+}
+.LoginBtn {
+    display: block;
+    position:absolute;
+    width: 52px;
+    height: 27px;
+    top:-5px;
+    right:-28px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    background: #4e71f2;
+    border-radius: 6px;
+}
+.LoginBtn:hover {
+    color: white;
+    background-color:rgb(17, 72, 187);
+}
+.LoginBtn .a:link {color:white;}
+.List1 {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 2% 5.5%;
+}
+.List2 {
+    align-items: center;
+    display: flex;
+    margin: 3.5% 11.3% 0 0;
+    width: 45px;
+}
+.MoreInfomation {
+    position:absolute;
+    top: 86%;
+    left:30%;
+    color: rgb(145, 145, 145);
+}
+.BaiduLogo {
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.Serch {
+    display: inline-block;
+    position: absolute;
+    top: 245px;
+    left:52%;
+    width: 659px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+    .Serch .SerchInputbox {
+        float: left;
+        /*        top: 25%;
+        left: 28.5%;*/
+        width: 515px;
+        height: 16px;
+        text-align: left;
+        border-radius: 10px 0 0 10px;
+        outline: medium;
+        transition: all 0.1s;
+        padding: 12px 16px;
+        font-size: 16px;
+        vertical-align: middle;
+        border: 2.5px solid #c4c7ce;
+    }
+        .SerchInputbox:hover {
+            border: 2.5px solid #a7aab5;
+        }
+        .SerchInputbox:focus {
+            border: 2.5px solid #4e71f2;
+        }
+        .SerchInputbox::-webkit-input-placeholder {
+            color:rgb(200,200,200)
+        }
+    .Serch .Btn {
+        float: right;
+        width: 107px;
+        height: 45px;
+        color: white;
+        font-size: 18px;
+        background: #4e6ef2;
+        border-radius: 0 10px 10px 0;
+        outline: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        cursor: pointer;
+        transition: all .1s;
+    }
+    .Btn:hover {
+        background: #4662d9;
+    }
+.SoutuBtn1 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 116px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.SoutuBtn2 {
+    width:32px;
+    height:32px;
+    position:absolute;
+    right:116px;
+    top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+    .SoutuBtn2:hover{
+        visibility:hidden;
+    }
+/*.SoutuF {
+    left: 78%;
+    top: 12%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 103;
+    height: 33px;
+    width: 32px;
+    opacity:0.2;*/
+    /* background-color: black;*/
+/*}*/
+
+.HandFrame {
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    width: 660px;
+    height: 148px;
+    left: 52%;
+    top: 355px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: block;
+    visibility: hidden;
+    border-radius: 13px;
+    /*display: none;*/
+    box-shadow: 0px 1.6px 8px rgb(225,225,225);
+    z-index: 4;
+}
+.OffFrame{
+    font-size:26px;
+    color:rgb(210,210,210);
+    position:relative;
+    left:308px;
+    top:100px;
+}
+.Hand {
+    width: 600px;
+    height: 58px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    border-style: dashed;
+    border-color: rgb(210,210,210);
+    border-width: 1px;
+}
+.HandText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-size:13px;
+    color:darkgrey;
+}
+.FileBtn {
+    position: absolute;
+    height: 28px;
+    width: 76px;
+    left: 50%;
+    top: 77%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    background-color: #4e6ef2;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.HotSerch {
+    /*background-color: aquamarine;*/
+    text-align: center;
+    position: absolute;
+    width: 660px;
+    height: 115px;
+    left: 52%;
+    top: 370px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    z-index: 3;
+}
+.c-icon {
+    font-family: cIconfont!important;
+    font-style: normal;
+    font-size:15px;
+    position:absolute;
+    margin-top:3px;
+    margin-left:-15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.HotSerchText {
+    position: absolute;
+    float:left;
+    left:0px;
+    margin-top:-0.5px;
+    display: inline-block;
+    color:rgb(50, 50, 50)
+}
+.ChangeIt {
+    position:absolute;
+    float:right;
+    right:6px;
+    display: inline-block;
+    color: rgb(145, 145, 145);
+    cursor: pointer;
+}
+    .ChangeIt:hover {
+        color: #4e6ef2;
+    }
+.HotList{
+    list-style-type:none;
+    margin-top:20px;
+    margin-left:-31px;
+}
+.HotSerch-LeftItem {
+    float: left;
+    margin-right: 520px;
+    margin-top: 13px;
+    white-space: nowrap;
+    cursor: pointer
+}
+.HotSerch-RightItem {
+    float: left;
+    margin-left: 378px;
+    margin-top: -20px;
+    white-space: nowrap;
+    cursor: pointer
+}
+.HotNum{
+    font-family:"PingFang SC",Arial,"Microsoft YaHei";
+    font-size:15px;
+    font-weight:500;
+    color:rgb(160, 160, 160);
+    margin-right:6px;
+}
+.GetDataFrame {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+.HotTip {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    background-color:rgb(245, 137, 67);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 1px;
+    margin-left: 8px;
+    position: absolute;
+}
+.FootList {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 14px;
+    background-color: #fff;
+}
+    .FootList a {
+        display: inline;
+        margin-right: 14px;
+        font-size: 12px;
+        color: #bbb;
+    }
+        .FootList a:hover {
+            cursor: pointer;
+            color:black;
+        }
+.l2 {
+    display: inline;
+    margin-right: 14px;
+    font-size: 12px;
+    color: #bbb;
+}
+.fixed {
+    position: fixed;
+    background-color: #B3D4FC;
+    width: 48px;
+    height: 100px;
+    right: 24px;
+    bottom: 64px;
+    background-color: #fbfbfb;
+    border-radius: 22px;
+}
+.i_fixed {
+    font-size: 20px;
+    color: grey;
+    height: 50%;
+    text-align: center;
+    line-height: 44px;
+}
+    .i_fixed:hover {
+        box-shadow: 0px 1.6px 8px rgb(225,225,225);
+        border-radius: 50%;
+        cursor: pointer
+    }
+.c-color-gray {
+    font-size: 23px;
+    position:absolute;
+    margin-left:-12px;
+    margin-top:4px;
+}
+.c-color-gray:hover {
+    color: blue;
+    cursor: pointer
+}
+.ewm-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -13px;
+    margin-top: 12px;
+    z-index:5;
+}
+    .fvideo {
+        position: relative;
+        font-size: 20px;
+    }
+.fvideo1 {
+    position: absolute;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
+    border-radius: 6px;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    top: 9px;
+    right: 56px;
+    display: none;
+    font-size: 13px;
+}
+.fvideo:hover .fvideo1 {
+    display: block;
+    color: #000000;
+}
+.fewm {
+    position: relative;
+    font-size: 20px;
+}
+.fewm1 {
+    position: absolute;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
+    border-radius: 12px;
+    width: 310px;
+    height: 110px;
+    line-height: 34px;
+    top: -60px;
+    right: 62px;
+    display: none;
+    font-size: 13px;
+}
+.fewm:hover .fewm1 {
+    display: block;
+    color: #000000;
+}
